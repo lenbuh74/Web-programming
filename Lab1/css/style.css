@@ -66,6 +66,15 @@ nav{
 	padding-bottom: 10px;
 	padding-top: 10px;
 }
+div.container {
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto;
+}
+.img_container img {
+  width: 32%;
+  display: inline-block;
+}
 footer{
 	width: 100%;
 	height: auto;
@@ -77,7 +86,7 @@ footer{
 
 
 @media screen and (max-width: 650px){
-	.menu a:not(:first-child) {
+	.menu a {
 		display: none;
 	}
 	.menu a.icon{
