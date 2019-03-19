@@ -1,8 +1,8 @@
 .navbar {
-background: #E3FEE0;
+background: #FAF4EA;
 }
 .nav-link , .navbar-brand{
-color: #000000;
+color: #3C2802;
 cursor: pointer;
 }
 .nav-link{
@@ -18,3 +18,17 @@ justify-content: flex-end;
 .navbar-toggler{
 background:#FFFFFF !important;
 }
+.mw-100{
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+}
+.overlay{
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+left: 0;
+top: 0;
+background: rgba(244, 244, 244, 0.50);
+}
+
