@@ -1,3 +1,7 @@
+body{
+	font-family: 'Lora', serif;
+}
+
 .navbar {
 background: #FAF4EA;
 position: fixed;
@@ -55,7 +59,7 @@ color:#3C2802;
 
 
 .about{
-margin: 4em 0;
+margin: 3em 0;
 padding: 1em;
 position: relative;
 background-color: #F9F8F6;
@@ -65,10 +69,24 @@ padding: 2em;
 border-left: :4px;
 }
 .about .desc h4{
-color: #272F43;
+color: #848DA4;
 }
 .about .desc p{
 line-height:2;
-color:#888;
+color:#272F43;
 }
 
+.examples{
+margin: 3em 0;
+position: relative;
+background-color: #F9F8F6;
+}
+.examples h2{
+color:#848DA4;
+margin: 2em;
+}
+.examples img{
+height: 15rem;
+width: 100%;
+margin: 1em;
+}
