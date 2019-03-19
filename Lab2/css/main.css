@@ -1,5 +1,6 @@
 body{
 	font-family: 'Lora', serif;
+	background-color: #F9F8F6;
 }
 
 .navbar {
@@ -34,7 +35,7 @@ min-height: 100%;
 min-width: 100%;
 left: 0;
 top: 0;
-background: rgba(244, 244, 244, 0.50);
+background: rgba(244, 244, 244, 0.60);
 }
 .description{
 
@@ -44,7 +45,7 @@ margin: auto;
 padding: 2em;
 }
 .description h2{
-color:#070A11 ;
+color:#272F43 ;
 }
 .description p{
 color:#262728;
@@ -76,17 +77,44 @@ line-height:2;
 color:#272F43;
 }
 
+
+
+
 .examples{
 margin: 3em 0;
 position: relative;
 background-color: #F9F8F6;
 }
 .examples h2{
-color:#848DA4;
+color:#272F43;
 margin: 2em;
 }
 .examples img{
 height: 15rem;
 width: 100%;
 margin: 1em;
+}
+
+
+
+.contact{
+margin: 3em 0;
+position: relative;
+background-color: #F9F8F6;
+}
+.contact h3{
+padding:2em 1px;
+color: #272F43;
+}
+.contact .right{
+max-width: 600px;
+}
+.contact .right .btn-secondary{
+background: #848DA4;
+color: #fff;
+border:0;
+}
+.contact .right .form-control::placeholder{
+color: #888;
+font-size: 16px;
 }
