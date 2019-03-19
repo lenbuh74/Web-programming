@@ -51,3 +51,21 @@ background:#FAF4EA;
 color:#3C2802;
 }
 
+
+.about{
+margin: 4em 0;
+padding: 1em;
+position: relative;
+}
+.about .desc{
+padding: 2em;
+border-left: :4px;
+}
+.about .desc h4{
+color: #272F43;
+}
+.about .desc p{
+line-height:2;
+color:#888;
+}
+
