@@ -4,77 +4,77 @@ body{
 }
 
 .navbar {
-background: #FAF4EA;
-position: fixed;
+	background: #FAF4EA;
+	position: fixed;
 }
 .nav-link , .navbar-brand{
-color: #3C2802;
-cursor: pointer;
+	color: #3C2802;
+	cursor: pointer;
 }
 .nav-link{
-margin-right: 1em !important;
+	margin-right: 1em !important;
 }
 .nav-link:hover{
-background: #848DA4;
-color: #FFFFFF;
+	background: #848DA4;
+	color: #FFFFFF;
 }
 .navbar-collapse{
-justify-content: flex-end;
+	justify-content: flex-end;
 }
 .navbar-toggler{
-background:#FFFFFF !important;
+	background:#FFFFFF !important;
 }
+
 .mw-100{
-background-attachment: fixed;
-background-size: cover;
-background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
 }
 .overlay{
-position: absolute;
-min-height: 100%;
-min-width: 100%;
-left: 0;
-top: 0;
-background: rgba(244, 244, 244, 0.60);
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(244, 244, 244, 0.60);
 }
 .description{
-
-position: absolute;
-top: 30%;
-margin: auto;
-padding: 2em;
+	position: absolute;
+	top: 30%;
+	margin: auto;
+	padding: 2em;
 }
 .description h2{
-color:#272F43 ;
+	color:#272F43 ;
 }
 .description p{
-color:#262728;
-font-size: 20px;
-width: 100%;
-line-height: 1.5;
+	color:#262728;
+	font-size: 20px;
+	width: 100%;
+	line-height: 1.5;
 }
 .description button{
-background:#FAF4EA;
-color:#3C2802;
+	background:#FAF4EA;
+	color:#3C2802;
 }
 
 
 .about{
-margin: 3em 0;
-padding: 1em;
-position: relative;
-background-color: #F9F8F6;
+	margin: 3em 0;
+	padding: 1em;
+	position: relative;
+	background-color: #F9F8F6;
 }
 .about .desc{
-padding: 2em;
-border-left: :4px;
+	padding: 2em;
+	border-left: :4px;
 }
 .about .desc h4{
-color: #848DA4;
+	color: #607CAD;
 }
 .about .desc p{
-line-height:2;
-color:#272F43;
+	line-height:2;
+	color:#272F43;
 }
 
 
@@ -84,16 +84,16 @@ color:#272F43;
 	background-color: #F9F8F6;
 }
 .advant h2{
-color:#272F43;
-margin: 2em;
+	color:#272F43;
+	margin: 2em;
 }
 .advant p{
-padding: 3em;
-color:#262728;
-font-size: 20px;
-width: 100%;
-line-height: 1.5;
-text-align: center;
+	padding: 3em;
+	color:#262728;
+	font-size: 20px;
+	width: 100%;
+	line-height: 1.5;
+	text-align: center;
 }
 .advant img{
 	display: block;
@@ -102,41 +102,87 @@ text-align: center;
 	height: 150px;
 }
 
+
+.type{
+	margin: 0 auto;
+	position: relative;
+}
+.type h2{
+	color:#272F43;
+	margin: 2em;
+	text-align: center;
+}
+.type span{
+	padding-top: 3em;
+	padding-left: 2em;
+	width: 80%;
+	display: block;
+	color: #888;
+	position: absolute;
+	font-size: 16px;
+}
+.type .desc{
+	padding: 2em;
+	border-left:4px solid #607CAD;
+}
+.type .desc h4{
+	color: #607CAD;
+}
+.type .desc p{
+	line-height:2;
+	color:#888;
+}
+
+
+
 .examples{
-margin: 3em 0;
-position: relative;
-background-color: #F9F8F6;
+	margin: 3em 0;
+	position: relative;
+	background-color: #F9F8F6;
 }
 .examples h2{
-color:#272F43;
-margin: 2em;
+	color:#272F43;
+	margin: 2em;
 }
 .examples img{
-height: 15rem;
-width: 100%;
-margin: 1em;
+	height: 15rem;
+	width: 100%;
+	margin: 1em;
 }
 
 
 
 .contact{
-margin: 3em 0;
-position: relative;
-background-color: #F9F8F6;
+	margin: 3em 0;
+	position: relative;
+	background-color: #F9F8F6;
+}
+.contact h2{
+	color:#272F43;
+	margin: 2em;
 }
 .contact h3{
-padding:2em 1px;
-color: #272F43;
+	padding:2em 1px;
+	color: #272F43;
 }
 .contact .right{
-max-width: 600px;
+	max-width: 600px;
 }
 .contact .right .btn-secondary{
-background: #848DA4;
-color: #fff;
-border:0;
+	background: #848DA4;
+	color: #fff;
+	border:0;
 }
 .contact .right .form-control::placeholder{
-color: #888;
-font-size: 16px;
+	color: #888;
+	font-size: 16px;
 }
+
+footer{
+	width: 100%;
+	height: auto;
+	background: #848DA4;
+	margin: 0 auto;
+	text-align: center;
+	padding: 1em;
+	}
