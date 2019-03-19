@@ -1,5 +1,6 @@
 .navbar {
 background: #FAF4EA;
+position: fixed;
 }
 .nav-link , .navbar-brand{
 color: #3C2802;
@@ -32,6 +33,7 @@ top: 0;
 background: rgba(244, 244, 244, 0.50);
 }
 .description{
+
 position: absolute;
 top: 30%;
 margin: auto;
@@ -56,6 +58,7 @@ color:#3C2802;
 margin: 4em 0;
 padding: 1em;
 position: relative;
+background-color: #F9F8F6;
 }
 .about .desc{
 padding: 2em;
