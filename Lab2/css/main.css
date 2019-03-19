@@ -78,7 +78,29 @@ color:#272F43;
 }
 
 
-
+.advant {
+	margin: 3em 0;
+	position: relative;
+	background-color: #F9F8F6;
+}
+.advant h2{
+color:#272F43;
+margin: 2em;
+}
+.advant p{
+padding: 3em;
+color:#262728;
+font-size: 20px;
+width: 100%;
+line-height: 1.5;
+text-align: center;
+}
+.advant img{
+	display: block;
+	margin: 0 auto;
+	width: 150px;
+	height: 150px;
+}
 
 .examples{
 margin: 3em 0;
