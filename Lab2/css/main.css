@@ -3,20 +3,26 @@ body{
 	background-color: #F9F8F6;
 }
 
+h3, h4, h2 {
+	font-weight: 700;
+	color: #272F43;
+}
+
+p {
+	color: #262728;
+}
+
 .navbar {
-	background: #FAF4EA;
+	background: #848DA4;
 	position: fixed;
 }
-.nav-link , .navbar-brand{
-	color: #3C2802;
+.nav-link {
+	color: #FFFFFF;
 	cursor: pointer;
-}
-.nav-link{
-	margin-right: 1em !important;
 }
 .nav-link:hover{
 	background: #848DA4;
-	color: #FFFFFF;
+	color: #272F43;
 }
 .navbar-collapse{
 	justify-content: flex-end;
@@ -25,10 +31,27 @@ body{
 	background:#FFFFFF !important;
 }
 
-.mw-100{
+.header{
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
+	margin-top: 0 auto;
+}
+
+
+.offer{
+	background: url('../images/1-1.jpg') no-repeat center top;
+
+}
+.title {
+	padding: 120px 0;
+}
+.title-heading {
+	font-size: 30px;
+}
+.title-desc {
+	font-weight: 700;
+	font-size: 20px;
 }
 .overlay{
 	position: absolute;
@@ -38,24 +61,12 @@ body{
 	top: 0;
 	background: rgba(244, 244, 244, 0.60);
 }
-.description{
-	position: absolute;
-	top: 30%;
-	margin: auto;
-	padding: 2em;
-}
-.description h2{
-	color:#272F43 ;
-}
-.description p{
-	color:#262728;
-	font-size: 20px;
-	width: 100%;
-	line-height: 1.5;
-}
-.description button{
-	background:#FAF4EA;
-	color:#3C2802;
+	
+.title button{
+	font-size: 18px;
+	background: #848DA4;
+	color: #fff;
+	border:0;
 }
 
 
@@ -69,12 +80,8 @@ body{
 	padding: 2em;
 	border-left: :4px;
 }
-.about .desc h4{
-	color: #607CAD;
-}
 .about .desc p{
 	line-height:2;
-	color:#272F43;
 }
 
 
@@ -84,12 +91,10 @@ body{
 	background-color: #F9F8F6;
 }
 .advant h2{
-	color:#272F43;
 	margin: 2em;
 }
 .advant p{
 	padding: 3em;
-	color:#262728;
 	font-size: 20px;
 	width: 100%;
 	line-height: 1.5;
@@ -108,13 +113,11 @@ body{
 	position: relative;
 }
 .type h2{
-	color:#272F43;
 	margin: 2em;
 	text-align: center;
 }
 .type span{
-	padding-top: 3em;
-	padding-left: 2em;
+	padding: 2em;
 	width: 80%;
 	display: block;
 	color: #888;
@@ -126,11 +129,12 @@ body{
 	border-left:4px solid #607CAD;
 }
 .type .desc h4{
-	color: #607CAD;
+	padding-top: 2em;
+	padding-left: 1em;
 }
 .type .desc p{
 	line-height:2;
-	color:#888;
+	padding-left: 2em;
 }
 
 
@@ -141,7 +145,6 @@ body{
 	background-color: #F9F8F6;
 }
 .examples h2{
-	color:#272F43;
 	margin: 2em;
 }
 .examples img{
@@ -158,17 +161,15 @@ body{
 	background-color: #F9F8F6;
 }
 .contact h2{
-	color:#272F43;
 	margin: 2em;
 }
 .contact h3{
 	padding:2em 1px;
-	color: #272F43;
 }
 .contact .right{
 	max-width: 600px;
 }
-.contact .right .btn-secondary{
+.contact .right .btn-block{
 	background: #848DA4;
 	color: #fff;
 	border:0;
