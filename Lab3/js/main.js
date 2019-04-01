@@ -8,6 +8,9 @@ window.onload = function(){
     canvas.width = 600;
     canvas.height = 400;
 
+    context.fillStyle = "rgba(0,0,0,0.3)";
+    context.fillRect(0,0,600,400);
+
     x1 = Math.floor(Math.random() * (300 - 100 + 1)) + 100;
     x2 = 600 - x1;
     x3 = Math.floor(Math.random() * (300 - 100 + 1)) + 100;
@@ -39,6 +42,8 @@ window.onload = function(){
             };
         };
     };
+
+
     
 };
 
