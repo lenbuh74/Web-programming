@@ -45,8 +45,35 @@ window.onload = function(){
             context.fillRect(0,0,600,400);
             context.fillStyle = 'white';
             context.textAlign = "center";
-            context.font = '16px Room';
-            context.fillText(data, 300, 200);
+            context.font = '20px Room';
+            var words = [];
+            words = data.split(' ');
+            console.log(words);
+            console.log(words.length);
+            var i;
+            var sum = 0;
+            var quote = '';
+            var count = 0;
+            for (i = 0; i < words.length; i++) {
+                var a = sum + context.measureText(words[i]).width;
+                console.log('eto a: ' + a);
+                if ((sum <= 500) && ((sum + context.measureText(words[i]).width) <= 500)) {
+                    sum += context.measureText(words[i]).width;
+                    quote += words[i] + ' ';
+                    console.log('qoute: ' + quote);
+                }
+                else 
+                    {   
+                        context.fillText(quote, 300, 170+count*30);
+                        quote = '';
+                        quote += words[i] + ' ';
+                        count += 1; 
+                        sum = context.measureText(words[i]).width;
+                    }     
+                };
+            if (quote != '') {
+                context.fillText(quote, 300, 170+count*30);
+            }
             console.log(context.measureText(data).width);
             
         }
@@ -57,7 +84,7 @@ window.onload = function(){
     }
     xhr.open('GET', source, true);
     xhr.send(null);
-  }, 2500 );
+  }, 3500 );
   };
 
 
