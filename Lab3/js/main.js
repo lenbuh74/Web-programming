@@ -78,7 +78,7 @@ window.onload = function(){
             
         }
         else {
-            var error = xhr.status + ': ' + xhr.sstatusText;
+            var error = xhr.status + ': ' + xhr.statusText;
             console.log(error);
         }
     }
