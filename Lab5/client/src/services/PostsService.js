@@ -1,3 +1,4 @@
+/* eslint-disable */
 import api from '@/services/api'
 export default {
   fetchPosts () {

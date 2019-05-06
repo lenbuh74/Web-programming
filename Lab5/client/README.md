@@ -1,6 +1,6 @@
-# lab5
+# client
 
-> A Vue.js project
+> client for lab5
 
 ## Build Setup
 

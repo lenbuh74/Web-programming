@@ -19,7 +19,7 @@
               td {{ post.title }}
               td {{ post.description }}
 
-        section.panel.panel-danger( !v-if="posts.length" )
+        section.panel.panel-danger( v-if="posts.length" )
           p
             | There are no posts ... Lets add one now!
           div
@@ -28,6 +28,7 @@
 </template>
 
 <script>
+/* eslint-disable */
   import PostsService from '@/services/PostsService'
   export default {
     name: 'PostsPage',
@@ -44,7 +45,6 @@
     },
     mounted () {
       this.getPosts()
-}
+    }
   }
-
 </script>

@@ -1,1 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.css'
+/* eslint-disable */
+
+import 'bootstrap/dist/css/bootstrap.css';
