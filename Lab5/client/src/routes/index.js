@@ -1,12 +1,18 @@
 /* eslint-disable */
 
-import Posts from '@/components/pages/PostsPage'
-const routes = [
-  {
-    path: '/posts',
-    name: 'Posts',
-    component: Posts
-  }
-]
+import Docs from '../components/Docs';
+import Markdown from '../components/Markdown';
 
-export default routes
+const routes = [
+    {
+        path: '/',
+        name: 'Docs',
+        component: Docs
+    },
+    {
+        path: '/doc',
+        name: 'Markdown',
+        component: Markdown
+    }
+];
+export default routes;
